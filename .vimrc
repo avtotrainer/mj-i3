@@ -28,4 +28,7 @@ endfunction
 autocmd BufWinEnter * call UpdateKeyboardLayout()
 set statusline+=%{g:keyboard_layout}
 " set statusline+=%{exists('g:keyboard_layout') ? g:keyboard_layout : 'N/A'}
-
+nmap <Up> <nop>
+nmap <Down> <nop>
+nmap <Left> <nop>
+nmap <Right> <nop>
