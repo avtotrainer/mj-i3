@@ -3,7 +3,7 @@ background = "0x000000"
 foreground = "0xFFFFFF"
 
 [font]
-size = 16.0
+size = 14.0
 
 [font.bold]
 family = "DejaVuSansM Nerd Font Mono"
@@ -21,10 +21,5 @@ x = 0
 y = 0
 
 [window]
-opacity=0.7
-
-[[key_bindings]]
-key = "Space"
-mods = "Super"
-# action = { command = { program = "xkb-switch" } }
+opacity=0.9
 
